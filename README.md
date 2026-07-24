@@ -169,7 +169,8 @@ python live_detect.py
 
 | Dashboard Interface | Fire & Smoke Detection Bounding Boxes |
 | :---: | :---: |
-| *(Streamlit Dashboard UI)* | *(Model Annotated Predictions)* |
+| *(Streamlit Dashboard UI)* - <img width="1465" height="812" alt="image" src="https://github.com/user-attachments/assets/aa0da4b4-286b-451e-8a3e-c5b3ce0136e9" />
+| *(Model Annotated Predictions)* |
 
 ---
 
