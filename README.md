@@ -165,12 +165,12 @@ python live_detect.py
 
 ## 🖼️ Screenshots
 
-*(Placeholder for app interface & detection output screenshots)*
+
 
 | Dashboard Interface | Fire & Smoke Detection Bounding Boxes |
 | :---: | :---: |
 | *(Streamlit Dashboard UI)* - <img width="1465" height="812" alt="image" src="https://github.com/user-attachments/assets/aa0da4b4-286b-451e-8a3e-c5b3ce0136e9" />
-| *(Model Annotated Predictions)* <img width="876" height="262" alt="image" src="https://github.com/user-attachments/assets/da5124dd-ce08-4972-9284-05dc073180cf" />
+| *(Model Annotated Predictions)* - <img width="876" height="262" alt="image" src="https://github.com/user-attachments/assets/da5124dd-ce08-4972-9284-05dc073180cf" />
 |
 
 ---
