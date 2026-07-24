@@ -7,7 +7,7 @@ from ultralytics import YOLO
 plt.switch_backend('TkAgg')
 
 # 1. Load your custom trained model weights
-model_path = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
+model_path = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
 model = YOLO(model_path)
 
 # 2. Input path to your source video file
