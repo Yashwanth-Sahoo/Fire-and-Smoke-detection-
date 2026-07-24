@@ -14,7 +14,7 @@ st.set_page_config(
 # 2. Cache the model loading step so it doesn't reload on every button click
 @st.cache_resource
 def load_model():
-    model_path = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
+    model_path = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
     return YOLO(model_path)
 
 model = load_model()
