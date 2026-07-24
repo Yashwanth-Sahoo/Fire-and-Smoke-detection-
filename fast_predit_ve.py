@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 
 # 1. Load your custom trained model weights
-model_path = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
+model_path = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
 model = YOLO(model_path)
 
 # Parameters for Lucas-Kanade optical flow
