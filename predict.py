@@ -2,7 +2,7 @@
 from ultralytics import YOLO
 
 # 1. Load your freshly trained custom model weights from your local directory
-model_path = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
+model_path = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
 model = YOLO(model_path)
 
 print("🚀 Starting object detection on test images...")
