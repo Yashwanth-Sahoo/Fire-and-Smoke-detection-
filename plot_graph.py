@@ -5,7 +5,7 @@ from PIL import Image
 plt.switch_backend('TkAgg')
 
 # Define the base directory path where your YOLO training runs are saved
-run_dir = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline"
+run_dir = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline"
 
 # 1. Load and display the training results plot (Loss curves, mAP metrics, etc.)
 results_path = f"{run_dir}/results.png"
