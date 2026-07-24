@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+myenv/
+
+# YOLO outputs
+runs/
+
+# Dataset
+dataset/
+
+# Model weights
+*.pt
+
+# Large videos
+SAMPLE_VIDEO/
+
+#Sample image
+SAMPLE_IMAGE/

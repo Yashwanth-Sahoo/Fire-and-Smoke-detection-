@@ -1,0 +1,7 @@
+path: /Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/dataset/data  # Keeps the path relative to your project folder
+train: train/images
+val: val/images
+test: test/images
+
+nc: 2
+names: ['smoke', 'fire']
