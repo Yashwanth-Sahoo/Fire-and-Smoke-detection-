@@ -4,30 +4,6 @@
 
 ---
 
-## 📌 Academic & Internship Context
-* **Internship Program:** NVIDIA GPU User Internship
-* **University:** Presidency University
-* **Department:** School of Artificial Intelligence and Advanced Computing
-
----
-
-## 📜 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Dataset](#dataset)
-- [Usage](#usage)
-- [Results](#results)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-- [Contributors](#contributors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
----
-
 ## 💡 About
 
 Early identification of fire outbreaks and smoke accumulation is critical to preventing catastrophic property damage, environmental devastation, and loss of life. Traditional physical sensors (such as optical smoke or thermal sensors) frequently fail in outdoor environments, high-ceiling warehouses, or large industrial facilities due to smoke dispersion delays.
@@ -43,7 +19,7 @@ This project addresses these challenges by employing deep learning computer visi
 - 🎥 **Video Stream Processor:** Frame-by-frame temporal inference for pre-recorded video assets.
 - 📺 **Live Webcam Feed:** Low-latency real-time video stream detection using local camera hardware.
 - 🎚️ **Dynamic Confidence Slider:** Interactive control to adjust confidence thresholds (0.05 to 1.0) on-the-fly.
-- ⚡ **Hardware Acceleration:** Native support for **NVIDIA CUDA** GPUs as well as Apple Silicon MPS.
+- ⚡ **Hardware Acceleration:** Cloud support form Google Colab GPUs as well as Apple Silicon MPS.
 
 ---
 
@@ -51,11 +27,11 @@ This project addresses these challenges by employing deep learning computer visi
 
 - **Programming Language:** Python 3.x
 - **Deep Learning Framework:** PyTorch, Ultralytics YOLOv8
-- **Hardware Acceleration:** NVIDIA CUDA / cuDNN, Apple Silicon MPS
+- **Hardware Acceleration:** Google Colab, Apple Silicon MPS
 - **Computer Vision & Image Processing:** OpenCV (`cv2`), PIL (Pillow)
 - **Web Application & UI:** Streamlit
 - **Data Manipulation & Metrics:** NumPy, Pandas, Matplotlib, PyYAML
-- **Development Environments:** Local Workstations, Google Colab / Kaggle Notebooks
+- **Development Environments:** Antigravity, Google Colab 
 
 ---
 
@@ -129,11 +105,8 @@ pip install -r requirements.txt
 
 ## 📊 Dataset
 
-The model is trained on a custom dataset annotated in standard YOLO bounding box format:
+The model is trained on a dataset from Kaggle 
 
-```text
-[class_id] [x_center] [y_center] [width] [height]
-```
 
 ### Dataset Configuration (`fire_smoke.yaml`):
 ```yaml
@@ -206,26 +179,3 @@ python live_detect.py
 - 🔔 **Automated Alarm Triggering:** Integration with Twilio / MQTT APIs to dispatch instant SMS/email alerts upon hazard detection.
 - 🌐 **Multi-Camera Cloud Dashboard:** Scalable WebRTC multi-stream monitoring interface.
 - 🌫️ **Enhanced Small-Smoke Detection:** Data augmentation for early-stage thin smoke detection in foggy atmospheric conditions.
-
----
-
-## 👥 Contributors
-
-* **Yashwanth** - *Lead Developer & Researcher*
-* **School of Artificial Intelligence and Advanced Computing**, Presidency University
-* **NVIDIA GPU User Internship Program**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
-
-* **NVIDIA GPU User Internship** for guidance and computing resources.
-* **Presidency University** (School of Artificial Intelligence and Advanced Computing).
-* **Ultralytics** for providing the open-source YOLOv8 architecture.
-* **Streamlit** and **OpenCV** open-source communities.
