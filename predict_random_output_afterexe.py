@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 plt.switch_backend('TkAgg')
 
 # 1. Define the base directory where YOLO saves prediction outputs
-detect_dir = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect"
+detect_dir = "/FIRE AND SMOKE DETECTION/runs/detect"
 
 # 2. Automatically find the most recent 'predict' folder (e.g., predict, predict2, etc.)
 predict_folders = glob.glob(os.path.join(detect_dir, "predict*"))
