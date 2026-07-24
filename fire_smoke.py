@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 # Define the local configuration string
 data_yaml = """
-path: /Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/dataset/data  # Keeps the path relative to your project folder
+path: /FIRE AND SMOKE DETECTION/dataset/data  # Keeps the path relative to your project folder
 train: train/images
 val: val/images
 test: test/images
