@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 # 1. Load your custom trained model weights
 # (Update this path to point to your fresh 640px/30-epoch 'best.pt' file once trained!)
-model_path = "/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
+model_path = "/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt"
 model = YOLO(model_path)
 
 # 2. Initialize the live camera stream
