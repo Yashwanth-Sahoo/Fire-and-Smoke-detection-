@@ -25,7 +25,7 @@ This project addresses these challenges by employing deep learning computer visi
 
 ## 🛠️ Tech Stack
 
-- **Programming Language:** Python 3.x
+- **Programming Language:** Python 3.16
 - **Deep Learning Framework:** PyTorch, Ultralytics YOLOv8
 - **Hardware Acceleration:** Google Colab, Apple Silicon MPS
 - **Computer Vision & Image Processing:** OpenCV (`cv2`), PIL (Pillow)
@@ -171,7 +171,7 @@ python live_detect.py
 | :---: | :---: |
 | *(Streamlit Dashboard UI)* - <img width="1465" height="812" alt="image" src="https://github.com/user-attachments/assets/aa0da4b4-286b-451e-8a3e-c5b3ce0136e9" />
 | *(Model Annotated Predictions)* - <img width="876" height="262" alt="image" src="https://github.com/user-attachments/assets/da5124dd-ce08-4972-9284-05dc073180cf" />
-|
+
 
 ---
 
