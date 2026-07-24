@@ -4,7 +4,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # 1. Load your custom trained model weights
-model = YOLO("/Users/yashwanth/Downloads/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt")
+model = YOLO("/FIRE AND SMOKE DETECTION/runs/detect/fire_smoke/yolov8n_baseline/weights/best.pt")
 
 # 2. Input image path
 my_image_path = input("📂 Please enter or paste the path to your image: ").strip()
